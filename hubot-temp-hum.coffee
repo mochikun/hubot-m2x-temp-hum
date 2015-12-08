@@ -1,3 +1,25 @@
+# Description:
+#   Hubot responds your M2X data
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#   export HUBOT_M2X_KEY=your_m2x_key
+#   export HUBOT_M2X_DEVID=your_m2x_device_id
+#   export HUBOT_M2X_TEMP=your_m2x_stream_id1
+#   export HUBOT_M2X_HUM=your_m2x_stream_id2
+#
+# Commands:
+#   hubot rtemp - Hubot responds your room's temp data
+#   hubot rhum - Hubot responds your room's hum data
+#
+# Notes:
+#   None
+# Author:
+#   mochikun
+
 config = 
 	key: process.env.HUBOT_M2X_KEY
 	devid: process.env.HUBOT_M2X_DEVID
